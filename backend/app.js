@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const cors = require("cors")
+// const cors = require("cors")
 const auth = require("./routes/auth")
 const list = require("./routes/list")
 app.use(express.json());//after doing this we can send data from backend to frontend
@@ -8,7 +8,7 @@ require("./Connection/connection")
 
 
 
-app.use(cors())
+// app.use(cors())
 app.get("/",(req,res)=>{
     res.send("Hello World")
 })

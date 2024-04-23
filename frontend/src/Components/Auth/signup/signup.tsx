@@ -126,7 +126,7 @@ const SignUp = () => {
         });
       } else {
         const response = await axios.post(
-          "http://localhost:8001/api/v1/register",
+          "https://todoapp-master-production.up.railway.app/api/v1/register",
           {
             email: email,
             username: userName,
