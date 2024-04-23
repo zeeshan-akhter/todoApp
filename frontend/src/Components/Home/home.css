@@ -1,0 +1,34 @@
+.homeMain{
+    width: 100%;
+    height: calc(90vh);
+}
+.home-sub-main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workspace{
+    width: 380px;
+    height: 420px;
+    background-color: #7077A1!important;
+    box-shadow: 10px 10px 19px #191b1f, -10px -10px 19px #23272b;
+}
+.workspace2{
+    width: 380px;
+    height: 220px;
+    background-color: #7077A1!important;
+    box-shadow: 10px 10px 19px #191b1f, -10px -10px 19px #23272b;
+}
+.workspace2-2{
+    width: 380px;
+    height: 40px;
+    margin-top: 14px;
+    background-color: #7077A1!important;
+    box-shadow: 10px 10px 19px #191b1f, -10px -10px 19px #23272b;
+}
+.workspace3{
+    width: 380px;
+    height: 320px;
+    background-color: #7077A1!important;
+    box-shadow: 10px 10px 19px #191b1f, -10px -10px 19px #23272b;
+}
